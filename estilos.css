@@ -7,7 +7,7 @@
 
 /* Imagen adaptable */
 .container img {
-  max-width: 120px;
+  max-width: 300px;
   height: auto;
 }
 
