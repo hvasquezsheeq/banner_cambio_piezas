@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Imagen adaptable */
+.container img {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Texto flexible */
+.text {
+  font-size: 14px;
+}
+
+/* 🔥 Para pantallas pequeñas */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container img {
+    max-width: 80px;
+  }
+}
